@@ -45,25 +45,37 @@
     <!-- Container -->
     <div class="main-container">
       <h3 class="text-center text-light">Start Health Check</h3>
-      <div class="left-container">
-        <!-- Session -->
-        <label for="session" class="text-light">Choose session</label>
-        <select name="session" id="session">
-          <option value="s1">Session 1</option>
-          <option value="s2">Session 2</option>
-          <option value="s3">Session 3</option>
-        </select>
-        <!-- Team -->
-        <label for="team" class="text-light">Select team</label>
-        <select name="team" id="team">
-          <option value="t1">Team 1</option>
-          <option value="t2">Team 2</option>
-          <option value="t3">Team 3</option>
-        </select>
-        <!-- Start -->
-        <button type="button" class="btn text-light">Start</button>
+      <!-- Flex Container -->
+      <div class="content d-flex justify-content-center mt-5">
+        <!-- Left Side -->
+        <div class="left-container d-flex flex-column mx-auto">
+          <!-- Session -->
+          <label for="session" class="text-light">Choose session</label>
+          <select name="session" id="session">
+            <option value="s1">Session 1</option>
+            <option value="s2">Session 2</option>
+            <option value="s3">Session 3</option>
+          </select>
+          <!-- Team -->
+          <label for="team" class="text-light mt-5">Select team</label>
+          <select name="team" id="team">
+            <option value="t1">Team 1</option>
+            <option value="t2">Team 2</option>
+            <option value="t3">Team 3</option>
+          </select>
+          <!-- Start -->
+          <button
+            type="button"
+            class="btn btn-warning text-light py-3 px-5 mt-5"
+          >
+            Start
+          </button>
+        </div>
+        <!-- Right Side -->
+        <div class="right-container mx-auto">
+          <img src="assets/heroImage.png" alt="heroImage" />
+        </div>
       </div>
-      <div class="right-container"></div>
     </div>
   </body>
 </html>
