@@ -21,7 +21,7 @@
     <title>Login Selection</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg py-1">
+    <nav class="navbar navbar-expand-sm py-1">
       <div class="container">
         <img src="assets/logo.png" alt="nav-logo" width="55" height="30" />
 
@@ -43,25 +43,52 @@
         </div>
       </div>
     </nav>
-    <section class="main-container">
-      <h1 class="title">Please Select Your Account Type</h1>
-      <div class="image-container">
-        <div class="image-item">
-          <img src="assets/local.png" alt="localAccountImage" />
+
+    <section
+      class="main-container text-light d-flex flex-column align-items-center"
+    >
+      <h1 class="title fs-3 pt-3">Please Select Your Account Type</h1>
+
+      <div
+        class="image-container d-flex flex-row flex-grow-1 justify-content-center align-items-center w-100 gap-4"
+      >
+        <div
+          class="image-item d-flex flex-column align-items-center justify-content-center cursor-pointer"
+        >
+          <img
+            src="assets/local.png"
+            alt="localAccountImage"
+            width="150"
+            height="150"
+          />
           <span>Local Account</span>
         </div>
-        <div class="image-item">
-          <img src="assets/admin.png" alt="adminAccountImage" />
+        <div
+          class="image-item d-flex flex-column align-items-center justify-content-center cursor-pointer"
+        >
+          <img
+            src="assets/admin.png"
+            alt="adminAccountImage"
+            width="150"
+            height="150"
+          />
           <span>Admin Account</span>
         </div>
-        <div class="image-item">
-          <img src="assets/google.png" alt="googleAccountImage" />
+        <div
+          class="image-item d-flex flex-column align-items-center justify-content-center cursor-pointer"
+        >
+          <img
+            src="assets/google.png"
+            alt="googleAccountImage"
+            width="150"
+            height="150"
+          />
           <span>Google Account</span>
         </div>
       </div>
+
       <h3>
-        Don't have an account
-        <a href="signup.html" class="link">Sign Up</a>
+        Don't have an account? <a href="signup.html" class="link">Sign Up</a>
       </h3>
     </section>
   </body>
