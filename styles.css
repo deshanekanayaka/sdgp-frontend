@@ -35,3 +35,6 @@ nav {
   background: var(--main-container);
   border-radius: 15px;
 }
+.image-item {
+  cursor: pointer;
+}
