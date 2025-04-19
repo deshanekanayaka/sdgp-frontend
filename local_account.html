@@ -44,23 +44,52 @@
       </div>
     </nav>
     <section class="main-container">
-      <form action="" class="form">
-        <h1>Local Account Log In</h1>
+      <form
+        action=""
+        class="form d-flex flex-column justify-content-center align-items-center"
+      >
+        <h1 class="text-light text-center">Local Account Log In</h1>
         <!-- Dropdown -->
 
-        <select name="role" id="role">
+        <select
+          name="role"
+          id="role"
+          class="role form-select form-select-sm mt-5 p-2 text-light"
+        >
           <option value="">Role</option>
           <option value="enginner">Enginner</option>
           <option value="team leader">Team leader</option>
           <option value="dept leader">Dept leader</option>
           <option value="sr manager">Sr manager</option>
         </select>
-        <input type="text" placeholder="Code" id="code" />
-        <input type="text" placeholder="Username" id="username" />
-        <input type="text" placeholder="Email" id="email" />
-        <input type="text" placeholder="Password" id="password" />
-        <button class="login-btn">Log In</button>
-        <a href="forgot_password.html" class="link">Forgot Password?</a>
+        <input
+          type="text"
+          placeholder="Code"
+          id="code"
+          class="mt-3 p-2 rounded-2"
+        />
+        <input
+          type="text"
+          placeholder="Username"
+          id="username"
+          class="mt-3 p-2 rounded-2"
+        />
+        <input
+          type="text"
+          placeholder="Email"
+          id="email"
+          class="mt-3 p-2 text-light"
+        />
+        <input
+          type="text"
+          placeholder="Password"
+          id="password"
+          class="mt-3 p-2 text-light"
+        />
+        <button class="login-btn mt-3 p-2 text-light">Log In</button>
+        <a href="forgot_password.html" class="link mt-3 p-2 text-light"
+          >Forgot Password?</a
+        >
       </form>
     </section>
   </body>
