@@ -7,6 +7,7 @@
   --textfield-color: hsla(206, 100%, 82%, 0.6);
   --input-text-color: hsla(0, 0%, 100%, 1);
   --btn-color: hsla(286, 85%, 61%, 1);
+  --start-btn-color: hsla(16, 100%, 60%, 0.96);
 
   --white: hsla(0, 21%, 94%, 1);
 
@@ -19,11 +20,11 @@ body {
 nav {
   background: var(--navbar-color);
 }
-.navbar-nav .nav-link {
-  color: white;
+.nav-item .nav-link {
+  color: blue !important;
 }
-.navbar-nav .nav-link:hover {
-  color: blue;
+.nav-link:hover {
+  color: white !important;
 }
 .logo {
   cursor: pointer;
@@ -54,4 +55,14 @@ input::placeholder {
 .login-btn {
   width: 400px;
   background: var(--btn-color);
+}
+.start-btn {
+  background: var(--start-btn-color);
+}
+.start-btn:hover {
+  background-color: inherit !important;
+  color: inherit !important;
+  border-color: inherit !important;
+  cursor: default;
+  box-shadow: none !important;
 }
