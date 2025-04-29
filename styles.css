@@ -8,6 +8,7 @@
   --input-text-color: hsla(0, 0%, 100%, 1);
   --btn-color: hsla(286, 85%, 61%, 1);
   --start-btn-color: hsla(16, 100%, 60%, 0.96);
+  --edit-btn-color: hsla(199, 74%, 58%, 1);
 
   --white: hsla(0, 21%, 94%, 1);
 
@@ -65,4 +66,74 @@ input::placeholder {
   border-color: inherit !important;
   cursor: default;
   box-shadow: none !important;
+}
+/* Admin Profile */
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  color: white;
+}
+.avatar {
+  display: inline-block;
+  width: 250px;
+  height: 250px;
+  margin-top: 6rem;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 3rem;
+}
+.profile-name {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 5rem;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 3rem;
+}
+.right h3 {
+  font-size: 2rem;
+}
+.right div {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.profile-name span:nth-of-type(2) {
+  font-size: 1.5rem;
+}
+.right span.name {
+  font-size: 1.5rem;
+}
+.button-tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.button-tab button:hover {
+  opacity: 0.8;
+}
+.edit {
+  background: var(--edit-btn-color);
+  padding: 0.5rem 3.5rem;
+  border-radius: 12px;
+  color: white;
+}
+.dashboard {
+  background: var(--btn-color);
+  padding: 0.5rem 2.5rem;
+  border-radius: 12px;
+  color: white;
 }
